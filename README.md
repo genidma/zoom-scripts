@@ -1,3 +1,4 @@
+##Script # 1##
 # Zoom-chat-most-active
 
 # Purpose: Figure out who is most active in the zoom chat logs. 
@@ -29,4 +30,15 @@ cat meeting_saved_chat.txt | awk '{ print $3" "$4}' |sort -n | uniq -c |sort
    
    38 Fraser Jaleel
 
-Note: If you get private messages and/or reply back to private messages, then the you need to consider that in the count.  
+Note: If you get private messages and/or reply back to private messages, then the you need to consider that in the count. 
+
+##Script # 2##
+# Extracting URLs#
+Note: This script may not work 100%. Because, URLs typed like this may not be scraped by this script --> cnn.com 
+
+# Follow step 1 and 2 above. 
+
+# Step 3: type or paste the following command on your terminal (below):
+
+cat meeting_saved_chat.txt | grep -i "www\|http"
+# Note : Same note as in Script # 1 (above)
