@@ -42,3 +42,4 @@ Note: This script may not work 100%. Because, URLs typed like this may not be sc
 
 cat meeting_saved_chat.txt | grep -i "www \| http"
 # Note : Same note as in Script # 1 (above)
+# Note 2 : I don't know why the trailing back slash is not showing up in the script (line) above. If you edit this file, then you will notice it. Must be a markdown thing with Github. But I haven't been able to figure out how to escape this, so that the code renders properly. 
