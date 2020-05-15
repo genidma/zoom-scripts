@@ -40,5 +40,5 @@ Note: This script may not work 100%. Because, URLs typed like this may not be sc
 
 # Step 3: type or paste the following command on your terminal (below):
 
-cat meeting_saved_chat.txt | grep -i "www \| http"
+cat meeting_saved_chat.txt | grep -i "www \'| http"
 # Note : Same note as in Script # 1 (above)
